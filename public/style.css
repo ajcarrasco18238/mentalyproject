@@ -1,43 +1,44 @@
 /* Estilos para el encabezado */
 header {
-    background-color: #007BFF; /* Cambia el color de fondo a un azul llamativo */
+    background-color: #FF5733; /* Un naranja llamativo */
     color: #fff; /* Texto en color blanco para mayor contraste */
-    padding: 20px; /* Aumenta el espacio alrededor del contenido */
-    text-align: center; /* Centra el contenido horizontalmente */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra sutil */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 header img {
-    width: 150px; /* Incrementa el tamaño del logo */
+    width: 150px;
     height: auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin-top: 20px; /* Espacio adicional arriba del menú de navegación */
-    text-align: center; /* Centra los elementos de la lista horizontalmente */
+    margin-top: 20px;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
-    font-size: 18px; /* Tamaño de fuente más grande */
+    font-size: 18px;
+    color: #FF5733; /* Color de texto naranja para resaltar */
 }
 
 /* Estilos para el área principal */
 main {
-    padding: 40px; /* Aumenta el espacio alrededor del contenido principal */
-    background-color: #f7f7f7; /* Cambia el fondo a un gris claro */
-    border-radius: 10px; /* Agrega bordes redondeados */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+    padding: 40px;
+    background-color: #FFF3E2; /* Un tono de amarillo claro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #007BFF; /* Usa el mismo color del encabezado para coherencia */
+    background-color: #FF5733;
     color: #fff;
     text-align: center;
     padding: 20px;
-    clear: both; /* Asegura que el pie de página esté limpio de flotadores */
+    clear: both;
 }
