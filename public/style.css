@@ -1,34 +1,43 @@
 /* Estilos para el encabezado */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    background-color: #007BFF; /* Cambia el color de fondo a un azul llamativo */
+    color: #fff; /* Texto en color blanco para mayor contraste */
+    padding: 20px; /* Aumenta el espacio alrededor del contenido */
+    text-align: center; /* Centra el contenido horizontalmente */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Agrega sombra sutil */
 }
 
 header img {
-    width: 100px;
+    width: 150px; /* Incrementa el tamaño del logo */
     height: auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin-top: 20px; /* Espacio adicional arriba del menú de navegación */
+    text-align: center; /* Centra los elementos de la lista horizontalmente */
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 18px; /* Tamaño de fuente más grande */
 }
 
 /* Estilos para el área principal */
 main {
-    padding: 20px;
+    padding: 40px; /* Aumenta el espacio alrededor del contenido principal */
+    background-color: #f7f7f7; /* Cambia el fondo a un gris claro */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #007BFF; /* Usa el mismo color del encabezado para coherencia */
+    color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    clear: both; /* Asegura que el pie de página esté limpio de flotadores */
 }
