@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Mi Sitio Web Médico</title>
+    <!-- Incluye los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="assets/img/logo.png" alt="Logo de la empresa">
-        <nav>
-            <ul>
-                <li><a href="/mentalyproject/public/index.html">Inicio</a></li>
-                <li><a href="acerca.html">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="bg-primary text-white">
+        <div class="container">
+            <img src="assets/img/logo.png" alt="Logo de la empresa" class="img-fluid">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="/mentalyproject/public/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <main>
-        <h1>Bienvenido a Mi Sitio Web</h1>
+    <main class="container mt-5">
+        <h1>Bienvenido a Mi Sitio Web Médico</h1>
         <p>¡Explora nuestro contenido y descubre más sobre nosotros!</p>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Mi Sitio Web</p>
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Mi Sitio Web Médico</p>
+        </div>
     </footer>
     
+    <!-- Incluye los scripts de Bootstrap y tu script personalizado -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
